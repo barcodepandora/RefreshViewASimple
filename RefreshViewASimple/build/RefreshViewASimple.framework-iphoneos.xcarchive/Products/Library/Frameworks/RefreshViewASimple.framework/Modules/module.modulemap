@@ -1,6 +1,0 @@
-framework module RefreshViewASimple {
-  umbrella header "RefreshViewASimple.h"
-
-  export *
-  module * { export * }
-}
