@@ -11,6 +11,8 @@
 		79D7190B293F932800CDB651 /* RefreshViewASimple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D71900293F932800CDB651 /* RefreshViewASimple.framework */; };
 		79D71910293F932800CDB651 /* RefreshViewASimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7190F293F932800CDB651 /* RefreshViewASimpleTests.swift */; };
 		79D71911293F932800CDB651 /* RefreshViewASimple.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D71903293F932800CDB651 /* RefreshViewASimple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D7191C293F938400CDB651 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7191A293F938300CDB651 /* RefreshView.swift */; };
+		79D7191D293F938400CDB651 /* RefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D7191B293F938400CDB651 /* RefreshView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		79D71904293F932800CDB651 /* RefreshViewASimple.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RefreshViewASimple.docc; sourceTree = "<group>"; };
 		79D7190A293F932800CDB651 /* RefreshViewASimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefreshViewASimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D7190F293F932800CDB651 /* RefreshViewASimpleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewASimpleTests.swift; sourceTree = "<group>"; };
+		79D7191A293F938300CDB651 /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
+		79D7191B293F938400CDB651 /* RefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		79D71902293F932800CDB651 /* RefreshViewASimple */ = {
 			isa = PBXGroup;
 			children = (
+				79D7191A293F938300CDB651 /* RefreshView.swift */,
+				79D7191B293F938400CDB651 /* RefreshView.xib */,
 				79D71903293F932800CDB651 /* RefreshViewASimple.h */,
 				79D71904293F932800CDB651 /* RefreshViewASimple.docc */,
 			);
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D7191D293F938400CDB651 /* RefreshView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D7191C293F938400CDB651 /* RefreshView.swift in Sources */,
 				79D71905293F932800CDB651 /* RefreshViewASimple.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +406,7 @@
 		79D71918293F932800CDB651 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MASX9FXVHU;
@@ -414,6 +423,7 @@
 		79D71919293F932800CDB651 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MASX9FXVHU;
