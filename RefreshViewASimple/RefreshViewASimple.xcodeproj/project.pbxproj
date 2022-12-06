@@ -3,26 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79D71905293F932800CDB651 /* RefreshViewASimple.docc in Sources */ = {isa = PBXBuildFile; fileRef = 79D71904293F932800CDB651 /* RefreshViewASimple.docc */; };
-		79D71911293F932800CDB651 /* RefreshViewASimple.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D71903293F932800CDB651 /* RefreshViewASimple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D7191C293F938400CDB651 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7191A293F938300CDB651 /* RefreshView.swift */; };
-		79D7191D293F938400CDB651 /* RefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D7191B293F938400CDB651 /* RefreshView.xib */; };
+		7949E618293FA08100A5A6D1 /* RefreshViewASimple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7949E617293FA08100A5A6D1 /* RefreshViewASimple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		79D71900293F932800CDB651 /* RefreshViewASimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RefreshViewASimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79D71903293F932800CDB651 /* RefreshViewASimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshViewASimple.h; sourceTree = "<group>"; };
-		79D71904293F932800CDB651 /* RefreshViewASimple.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RefreshViewASimple.docc; sourceTree = "<group>"; };
-		79D7191A293F938300CDB651 /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
-		79D7191B293F938400CDB651 /* RefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshView.xib; sourceTree = "<group>"; };
+		7949E614293FA08100A5A6D1 /* RefreshViewASimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RefreshViewASimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7949E617293FA08100A5A6D1 /* RefreshViewASimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshViewASimple.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79D718FD293F932800CDB651 /* Frameworks */ = {
+		7949E611293FA08100A5A6D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,29 +26,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79D718F6293F932800CDB651 = {
+		7949E60A293FA08100A5A6D1 = {
 			isa = PBXGroup;
 			children = (
-				79D71902293F932800CDB651 /* RefreshViewASimple */,
-				79D71901293F932800CDB651 /* Products */,
+				7949E616293FA08100A5A6D1 /* RefreshViewASimple */,
+				7949E615293FA08100A5A6D1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		79D71901293F932800CDB651 /* Products */ = {
+		7949E615293FA08100A5A6D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79D71900293F932800CDB651 /* RefreshViewASimple.framework */,
+				7949E614293FA08100A5A6D1 /* RefreshViewASimple.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79D71902293F932800CDB651 /* RefreshViewASimple */ = {
+		7949E616293FA08100A5A6D1 /* RefreshViewASimple */ = {
 			isa = PBXGroup;
 			children = (
-				79D7191A293F938300CDB651 /* RefreshView.swift */,
-				79D7191B293F938400CDB651 /* RefreshView.xib */,
-				79D71903293F932800CDB651 /* RefreshViewASimple.h */,
-				79D71904293F932800CDB651 /* RefreshViewASimple.docc */,
+				7949E617293FA08100A5A6D1 /* RefreshViewASimple.h */,
 			);
 			path = RefreshViewASimple;
 			sourceTree = "<group>";
@@ -62,25 +53,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		79D718FB293F932800CDB651 /* Headers */ = {
+		7949E60F293FA08100A5A6D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D71911293F932800CDB651 /* RefreshViewASimple.h in Headers */,
+				7949E618293FA08100A5A6D1 /* RefreshViewASimple.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		79D718FF293F932800CDB651 /* RefreshViewASimple */ = {
+		7949E613293FA08100A5A6D1 /* RefreshViewASimple */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79D71914293F932800CDB651 /* Build configuration list for PBXNativeTarget "RefreshViewASimple" */;
+			buildConfigurationList = 7949E61B293FA08100A5A6D1 /* Build configuration list for PBXNativeTarget "RefreshViewASimple" */;
 			buildPhases = (
-				79D718FB293F932800CDB651 /* Headers */,
-				79D718FC293F932800CDB651 /* Sources */,
-				79D718FD293F932800CDB651 /* Frameworks */,
-				79D718FE293F932800CDB651 /* Resources */,
+				7949E60F293FA08100A5A6D1 /* Headers */,
+				7949E610293FA08100A5A6D1 /* Sources */,
+				7949E611293FA08100A5A6D1 /* Frameworks */,
+				7949E612293FA08100A5A6D1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,73 +79,69 @@
 			);
 			name = RefreshViewASimple;
 			productName = RefreshViewASimple;
-			productReference = 79D71900293F932800CDB651 /* RefreshViewASimple.framework */;
+			productReference = 7949E614293FA08100A5A6D1 /* RefreshViewASimple.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		79D718F7293F932800CDB651 /* Project object */ = {
+		7949E60B293FA08100A5A6D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					79D718FF293F932800CDB651 = {
-						CreatedOnToolsVersion = 14.1;
+					7949E613293FA08100A5A6D1 = {
+						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = 79D718FA293F932800CDB651 /* Build configuration list for PBXProject "RefreshViewASimple" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 7949E60E293FA08100A5A6D1 /* Build configuration list for PBXProject "RefreshViewASimple" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 79D718F6293F932800CDB651;
-			productRefGroup = 79D71901293F932800CDB651 /* Products */;
+			mainGroup = 7949E60A293FA08100A5A6D1;
+			productRefGroup = 7949E615293FA08100A5A6D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79D718FF293F932800CDB651 /* RefreshViewASimple */,
+				7949E613293FA08100A5A6D1 /* RefreshViewASimple */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79D718FE293F932800CDB651 /* Resources */ = {
+		7949E612293FA08100A5A6D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D7191D293F938400CDB651 /* RefreshView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79D718FC293F932800CDB651 /* Sources */ = {
+		7949E610293FA08100A5A6D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D7191C293F938400CDB651 /* RefreshView.swift in Sources */,
-				79D71905293F932800CDB651 /* RefreshViewASimple.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		79D71912293F932800CDB651 /* Debug */ = {
+		7949E619293FA08100A5A6D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -199,7 +186,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -211,13 +198,13 @@
 			};
 			name = Debug;
 		};
-		79D71913293F932800CDB651 /* Release */ = {
+		7949E61A293FA08100A5A6D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -256,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -268,7 +255,7 @@
 			};
 			name = Release;
 		};
-		79D71915293F932800CDB651 /* Debug */ = {
+		7949E61C293FA08100A5A6D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -281,7 +268,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,7 +283,7 @@
 			};
 			name = Debug;
 		};
-		79D71916293F932800CDB651 /* Release */ = {
+		7949E61D293FA08100A5A6D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +296,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79D718FA293F932800CDB651 /* Build configuration list for PBXProject "RefreshViewASimple" */ = {
+		7949E60E293FA08100A5A6D1 /* Build configuration list for PBXProject "RefreshViewASimple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79D71912293F932800CDB651 /* Debug */,
-				79D71913293F932800CDB651 /* Release */,
+				7949E619293FA08100A5A6D1 /* Debug */,
+				7949E61A293FA08100A5A6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79D71914293F932800CDB651 /* Build configuration list for PBXNativeTarget "RefreshViewASimple" */ = {
+		7949E61B293FA08100A5A6D1 /* Build configuration list for PBXNativeTarget "RefreshViewASimple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79D71915293F932800CDB651 /* Debug */,
-				79D71916293F932800CDB651 /* Release */,
+				7949E61C293FA08100A5A6D1 /* Debug */,
+				7949E61D293FA08100A5A6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 79D718F7293F932800CDB651 /* Project object */;
+	rootObject = 7949E60B293FA08100A5A6D1 /* Project object */;
 }
