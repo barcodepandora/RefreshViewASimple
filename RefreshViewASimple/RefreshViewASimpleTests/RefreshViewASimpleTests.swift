@@ -33,4 +33,7 @@ final class RefreshViewASimpleTests: XCTestCase {
         }
     }
 
+    func testAdd() {
+        XCTAssertTrue(true)
+    }
 }
