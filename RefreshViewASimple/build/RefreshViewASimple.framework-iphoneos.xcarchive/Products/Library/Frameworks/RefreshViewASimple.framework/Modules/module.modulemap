@@ -1,0 +1,4 @@
+framework module RefreshViewASimple {
+  header "RefreshViewASimple-Swift.h"
+  requires objc
+}
