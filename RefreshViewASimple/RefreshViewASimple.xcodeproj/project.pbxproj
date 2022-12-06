@@ -8,29 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		79D71905293F932800CDB651 /* RefreshViewASimple.docc in Sources */ = {isa = PBXBuildFile; fileRef = 79D71904293F932800CDB651 /* RefreshViewASimple.docc */; };
-		79D7190B293F932800CDB651 /* RefreshViewASimple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D71900293F932800CDB651 /* RefreshViewASimple.framework */; };
-		79D71910293F932800CDB651 /* RefreshViewASimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7190F293F932800CDB651 /* RefreshViewASimpleTests.swift */; };
 		79D71911293F932800CDB651 /* RefreshViewASimple.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D71903293F932800CDB651 /* RefreshViewASimple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D7191C293F938400CDB651 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7191A293F938300CDB651 /* RefreshView.swift */; };
 		79D7191D293F938400CDB651 /* RefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D7191B293F938400CDB651 /* RefreshView.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		79D7190C293F932800CDB651 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79D718F7293F932800CDB651 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79D718FF293F932800CDB651;
-			remoteInfo = RefreshViewASimple;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		79D71900293F932800CDB651 /* RefreshViewASimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RefreshViewASimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D71903293F932800CDB651 /* RefreshViewASimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshViewASimple.h; sourceTree = "<group>"; };
 		79D71904293F932800CDB651 /* RefreshViewASimple.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RefreshViewASimple.docc; sourceTree = "<group>"; };
-		79D7190A293F932800CDB651 /* RefreshViewASimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefreshViewASimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79D7190F293F932800CDB651 /* RefreshViewASimpleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewASimpleTests.swift; sourceTree = "<group>"; };
 		79D7191A293F938300CDB651 /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		79D7191B293F938400CDB651 /* RefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,14 +29,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79D71907293F932800CDB651 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79D7190B293F932800CDB651 /* RefreshViewASimple.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,7 +36,6 @@
 			isa = PBXGroup;
 			children = (
 				79D71902293F932800CDB651 /* RefreshViewASimple */,
-				79D7190E293F932800CDB651 /* RefreshViewASimpleTests */,
 				79D71901293F932800CDB651 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				79D71900293F932800CDB651 /* RefreshViewASimple.framework */,
-				79D7190A293F932800CDB651 /* RefreshViewASimpleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,14 +57,6 @@
 				79D71904293F932800CDB651 /* RefreshViewASimple.docc */,
 			);
 			path = RefreshViewASimple;
-			sourceTree = "<group>";
-		};
-		79D7190E293F932800CDB651 /* RefreshViewASimpleTests */ = {
-			isa = PBXGroup;
-			children = (
-				79D7190F293F932800CDB651 /* RefreshViewASimpleTests.swift */,
-			);
-			path = RefreshViewASimpleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,24 +91,6 @@
 			productReference = 79D71900293F932800CDB651 /* RefreshViewASimple.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		79D71909293F932800CDB651 /* RefreshViewASimpleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 79D71917293F932800CDB651 /* Build configuration list for PBXNativeTarget "RefreshViewASimpleTests" */;
-			buildPhases = (
-				79D71906293F932800CDB651 /* Sources */,
-				79D71907293F932800CDB651 /* Frameworks */,
-				79D71908293F932800CDB651 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				79D7190D293F932800CDB651 /* PBXTargetDependency */,
-			);
-			name = RefreshViewASimpleTests;
-			productName = RefreshViewASimpleTests;
-			productReference = 79D7190A293F932800CDB651 /* RefreshViewASimpleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,9 +102,6 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					79D718FF293F932800CDB651 = {
-						CreatedOnToolsVersion = 14.1;
-					};
-					79D71909293F932800CDB651 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -173,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				79D718FF293F932800CDB651 /* RefreshViewASimple */,
-				79D71909293F932800CDB651 /* RefreshViewASimpleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -184,13 +130,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				79D7191D293F938400CDB651 /* RefreshView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79D71908293F932800CDB651 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,23 +145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79D71906293F932800CDB651 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79D71910293F932800CDB651 /* RefreshViewASimpleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		79D7190D293F932800CDB651 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 79D718FF293F932800CDB651 /* RefreshViewASimple */;
-			targetProxy = 79D7190C293F932800CDB651 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		79D71912293F932800CDB651 /* Debug */ = {
@@ -403,40 +326,6 @@
 			};
 			name = Release;
 		};
-		79D71918293F932800CDB651 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MASX9FXVHU;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.novopayment.practice4novoappextension.RefreshViewASimpleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		79D71919293F932800CDB651 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MASX9FXVHU;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.novopayment.practice4novoappextension.RefreshViewASimpleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,15 +343,6 @@
 			buildConfigurations = (
 				79D71915293F932800CDB651 /* Debug */,
 				79D71916293F932800CDB651 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		79D71917293F932800CDB651 /* Build configuration list for PBXNativeTarget "RefreshViewASimpleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				79D71918293F932800CDB651 /* Debug */,
-				79D71919293F932800CDB651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
